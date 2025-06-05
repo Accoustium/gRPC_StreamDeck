@@ -7,9 +7,11 @@ name = "gRPC-StreamDeck"
 requires-python = ">=3.8"
 description = "A Python library for creating Stream Deck plugins using gRPC."
 readme = "README.md"
-license = "LICENSE"
+license = "MIT"
+license-files = ["LICENSE"]
 dynamic = ["version"]
 authors = [ { name = "Accoustium", email = "accoustium@gmail.com"} ]
+maintainers = [ { name = "Accoustium", email = "accoustium@gmail.com"} ]
 dependencies = [
     "grpcio>=1.64.0",
     "grpcio-tools>=1.64.0",
@@ -17,3 +19,7 @@ dependencies = [
     "pytest>=7.4.0",
     "pre-commit>=4.2.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/Accoustium/gRPC_StreamDeck.git"
+Issues = "https://github.com/Accoustium/gRPC_StreamDeck/issues"
